@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">list_viewTp</string>
+    <string name="pic_description">this is the picture</string>
+    <string name="text">defaut Text</string>
+    <string name="icon">Icoun Description</string>
+</resources>

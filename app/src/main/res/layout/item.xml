@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <!-- Image circulaire à gauche -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/circle_image"
+        android:contentDescription="@string/pic_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pdp" />
+
+    <!-- Texte principal au centre -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/text"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <!-- Icône à droite -->
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/account"
+        android:contentDescription="@string/icon"
+        />
+</LinearLayout>
